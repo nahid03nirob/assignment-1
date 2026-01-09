@@ -85,7 +85,7 @@ header{
     font-size: smaller;
 }
 
-.notes-cards {
+.notes-card{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
   gap:20px;
@@ -102,5 +102,55 @@ header{
     background-color: #F95555;
     padding: 30px;
     border-radius: 50%;
+   
+}
+
+
+.solution {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.solution-container {
+  max-width: 1600px;
+  margin: auto;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 120px 120px 120px 120px;
+}
+
+.content .sl {
+  font-size: 13px;
+  color: #16a34a;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.content .sl2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  max-width: 1200px;
+}
+
+.content h1 {
+  font-size: 40px;
+  margin: 12px 0 20px;
+  line-height: 1.2;
+}
+
+.content p {
+  color: #475569;
+  line-height: 1.5;
+}
+
+.content ul {
+  list-style: none;
+}
+
+.content li {
+  margin-bottom: 12px;
+  color: #0f172a;
 }
 
