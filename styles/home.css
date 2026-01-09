@@ -37,3 +37,42 @@ header{
     padding: 10px 16px;
 
 }
+.hero1{
+    text-align: center;
+    padding: 70px 120px 134px 120px;
+    background: url("../assets/hero-bg.png") no-repeat center;
+
+}
+.hero1 h1{
+    color: white;
+    font-size: bold 72px;
+}
+.hero1 h1 span{
+    color: #30B868;
+    font-size: bold 72px;
+}
+.hero1 p{
+    color: white;
+    margin-top: 16px;
+    font-size: regular 18px;
+}
+.btn1{
+    border: none;
+    background-color: #30B868;
+    color: white;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+
+
+}
+.btn2 {
+    
+    border: solid white 1.5px;
+    border-radius: 5px ;
+    background-color: transparent;
+    color: white;
+    padding: 11px 15px 11px 15px;
+    text-align: center;
+    
+
+}
