@@ -53,8 +53,9 @@ header{
 }
 .hero1 p{
     color: white;
-    margin-top: 16px;
-    font-size: regular 18px;
+    padding-top: 16px;
+    font-size: smaller;
+    padding: 32px;
 }
 .btn1{
     border: none;
@@ -74,3 +75,32 @@ header{
     padding: 11px 15px 11px 15px;
     text-align: center;
 }
+.notes{
+  text-align:center;
+}
+.notes h1{
+    font-size: bold 36px;
+}
+.notes p{
+    font-size: smaller;
+}
+
+.notes-cards {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+  margin-top:40px;
+}
+
+.card{
+  padding:30px;
+  border-radius:10px;
+  background:#fff;
+  box-shadow:0 10px 30px rgba(0,0,0,.05);
+}
+.card img{
+    background-color: #F95555;
+    padding: 30px;
+    border-radius: 50%;
+}
+
